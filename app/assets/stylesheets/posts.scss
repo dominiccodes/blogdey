@@ -2,14 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.site-header {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3100b8+0,2f00ea+33,2f00ea+33,3103ff+50,8067ff+100 */
-    background: #3100b8; /* Old browsers */
-    background: -moz-linear-gradient(left,  #3100b8 0%, #2f00ea 33%, #2f00ea 33%, #3103ff 50%, #8067ff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #3100b8 0%,#2f00ea 33%,#2f00ea 33%,#3103ff 50%,#8067ff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #3100b8 0%,#2f00ea 33%,#2f00ea 33%,#3103ff 50%,#8067ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3100b8', endColorstr='#8067ff',GradientType=1 ); /* IE6-9 */
-}
-.site-header h1 {
-    color: white;
+//.site-header {
+//    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3100b8+0,2f00ea+33,2f00ea+33,3103ff+50,8067ff+100 */
+//    background: #3100b8; /* Old browsers */
+//    background: -moz-linear-gradient(left,  #3100b8 0%, #2f00ea 33%, #2f00ea 33%, #3103ff 50%, #8067ff 100%); /* FF3.6-15 */
+//    background: -webkit-linear-gradient(left,  #3100b8 0%,#2f00ea 33%,#2f00ea 33%,#3103ff 50%,#8067ff 100%); /* Chrome10-25,Safari5.1-6 */
+//    background: linear-gradient(to right,  #3100b8 0%,#2f00ea 33%,#2f00ea 33%,#3103ff 50%,#8067ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3100b8', endColorstr='#8067ff',GradientType=1 ); /* IE6-9 */
+//}
+//.site-header h1 {
+//    color: white;
+//}
+
+.jumbotron {
+	margin-top: 20px;
+//	background-image: url(/images/pexels-photo-418831.jpeg);
+	background-image: url("https://udemy-images.udemy.com/course/750x422/213040_5ba7_2.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #ffffff;
 }
